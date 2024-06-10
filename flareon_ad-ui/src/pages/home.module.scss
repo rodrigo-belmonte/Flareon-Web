@@ -1,0 +1,20 @@
+.home {
+  margin: 1rem;
+  padding: 5rem;
+  background-color: #d5d5d5;
+  // height: 50vh;
+  .itemMenuGrid {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c67d10;
+    color: #fff;
+    svg {
+      padding-right: 1rem;
+    }
+  }
+  .itemMenuGrid:hover {
+    background-color: #936724;
+  }
+}

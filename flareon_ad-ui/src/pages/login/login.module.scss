@@ -1,0 +1,29 @@
+.page {
+  background: rgb(255,255,255);
+  background: linear-gradient(310deg,#fff,#bbb2b0 48%,#867f7f 77%);
+  .imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+    img {
+      max-width: 50%;
+      height: 50%;
+      filter: drop-shadow(5px 5px 10px #3c3535);
+    }
+  }
+  .loginBox {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .inputBox{
+     display: grid;
+    }
+    .forgotPassword{
+      text-decoration: underline;
+    color: #fff;
+    }
+  }
+}
